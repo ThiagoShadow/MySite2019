@@ -1,0 +1,55 @@
+body {
+    background-image: url(img/fundo.jpg);
+}
+
+#divCentral {
+    
+}
+
+#divTexto {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgba(255,255,255, 0.2);
+}
+
+#foto img {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    border: black 2px solid;
+}
+
+span {
+    font-size: 35px;
+    float: center;
+}
+.spanCenter {
+    margin-left: 30%;
+}
+.span10 {
+    margin-left: 10%;
+}
+
+#nome {
+    margin-top: 14%;
+    margin-bottom: 14%;
+    align-items: center;
+}
+
+@media screen and (min-width: 90px) and (max-width: 575px) {
+    
+    #divTexto {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+        background-color: rgba(255,255,255, 0.5) 
+    }
+    
+}
